@@ -1,0 +1,33 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+nav {
+  background-color: #5fc1f9;
+  margin: 0;
+  max-height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  padding: 10px;
+}
+
+@media(min-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 800px;
+    padding:10px;
+}
