@@ -1,0 +1,45 @@
+/* To add a line comment */
+/* On Mac with UK keyboard: Cmd + / */
+/* On Mac with German/Portuguese keyboard: Cmd + Shift + 7 */
+
+/* To get any command: Cmd + Shift + P  > "The name of the command" */
+
+html {
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: #5ec1f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav .right a {
+  padding-left: 8px;
+}
+
+main {
+  padding: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
